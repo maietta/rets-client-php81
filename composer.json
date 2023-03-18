@@ -1,0 +1,50 @@
+{
+  "name": "maietta/rets-client-php81",
+  "type": "library",
+  "license": "GPL-3.0-or-later",
+  "description": "RETS library in PHP",
+  "keywords": [
+    "rets",
+    "mls"
+  ],
+  "homepage": "https://github.com/maietta/rets-client-php81",
+  "authors": [
+    {
+      "name": "Troy Davisson",
+      "email": "troy.davisson@gmail.com",
+      "homepage": "http://troda.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Max Lispky",
+      "email": "maxlipsky@gmail.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Nick Maietta",
+      "email": "nick@maietta.org",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "guzzlehttp/guzzle": ">=7.2",
+    "illuminate/container": ">=9.0",
+    "illuminate/support": ">=9.0",
+    "league/csv": ">=9.7",
+    "ext-simplexml": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.5.*",
+    "psr/log": "3.*",
+    "monolog/monolog": "3.1.*",
+    "rector/rector": "^0.13.8",
+    "phpstan/phpstan": "^1.8",
+    "friendsofphp/php-cs-fixer": "^3.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "PHRETS\\": "src/"
+    }
+  }
+}
